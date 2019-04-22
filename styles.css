@@ -29,7 +29,7 @@ span {
     border: solid black;
     border-width: 5px;
     border-radius: 30em;
-    display: inline-block;
+    display: block;
 }
 
 #thermos {
@@ -47,4 +47,8 @@ span {
 
 #carton {
     background-color: hotpink;
+}
+
+#containers {
+    display: inline-block;
 }
