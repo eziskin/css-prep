@@ -1,0 +1,50 @@
+body {
+    font-family: 'EB Garamond', serif;
+    background-color: lightgray;
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+    display: block;
+}
+
+.readme-wrapper {
+    text-decoration: none;
+    color: red;
+}
+
+.readme-wrapper:hover{
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+}
+
+span {
+    font-weight: bold;
+}
+
+.boxes {
+    margin: 30px;
+    padding: 10px;
+    border: solid black;
+    border-width: 5px;
+    border-radius: 30em;
+    display: inline-block;
+}
+
+#thermos {
+    background-color: aqua;
+}
+
+#jar {
+    background-color: rgb(43, 249, 43);
+    position: relative;
+}
+
+#bottle {
+    background-color: yellow;
+}
+
+#carton {
+    background-color: hotpink;
+}
