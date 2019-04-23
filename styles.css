@@ -29,7 +29,7 @@ span {
     border: solid black;
     border-width: 5px;
     border-radius: 30em;
-    display: block;
+    display: inline-block;
 }
 
 #thermos {
@@ -38,7 +38,6 @@ span {
 
 #jar {
     background-color: rgb(43, 249, 43);
-    position: relative;
 }
 
 #bottle {
@@ -49,6 +48,65 @@ span {
     background-color: hotpink;
 }
 
-#containers {
-    display: inline-block;
+.images {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(120, 84, 162);
+    position: relative;
+    top: 65px;
+    left: 300px;
 }
+
+h1 {
+    color: blueviolet;
+}
+
+.original {
+    color: goldenrod;
+}
+.additional {
+    color: royalblue
+}
+
+#show1 {
+    color: blue;
+}
+
+#show2 {
+    color: green;
+}
+
+#show3 {
+    color: red;
+}
+
+#show4 {
+    color: yellow;
+}
+
+#show5 {
+    color: purple;
+}
+
+ul {
+    color: mediumorchid;
+}
+
+.wars {
+    color: ghostwhite;
+    border: 2px solid black;
+}
+
+.restuarants {
+    border: 2px solid black;
+}
+
+.places {
+    border: 2px solid black;
+}
+
+.friends {
+    border: 2px solid black;
+}
+
